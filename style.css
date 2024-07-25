@@ -1,0 +1,68 @@
+/* {
+    border: 1px dashed red;
+    min-height: 10px;
+}*/
+body{
+    
+    background: black;
+    text-align: center;
+    color: orange;
+
+}
+
+.boxContainer{
+    border: 2px solid orange;
+    border-radius: 2%;
+    background: grey;
+    padding: 80px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    
+  
+    
+}
+
+.bigBox{
+    border: 2px solid orange;
+    border-radius: 3%;
+    padding-top: 5px;
+    font-size: 10px;
+    background: white;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.boxHead{
+    display: flex;
+    padding-left: 5px;
+   
+    
+}
+.boxHead h1{
+    width: 370px;
+    margin: 0px;
+    text-align: left;
+   }
+   .boxHead h2{
+    margin: 0px;
+    padding-right: 5px;
+   }
+.boxBody img{
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+}
+.boxComent{
+    text-align: left;
+   color: black;
+   background: white;
+   font-size: 15px;
+   padding-left: 5px;
+}
